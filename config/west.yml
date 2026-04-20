@@ -7,7 +7,9 @@ manifest:
     - name: NuclearSquid
       url-base: https://github.com/Nuclear-Squid
     - name: infely                           
-      url-base: https://github.com/infely  
+      url-base: https://github.com/infely 
+    - name: duckyb
+      url-base: https://github.com/duckyb
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -26,6 +28,9 @@ manifest:
       revision: main
     - name: nice-view-battery                  
       remote: infely                          
-      revision: main                           
+      revision: main
+    - name: urchin-zmk-module
+      remote: duckyb
+      revision: main
   self:
     path: config
