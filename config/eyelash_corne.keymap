@@ -9,3 +9,12 @@
     LOUT3  LROW3  &kp C_MUTE           &kp DOWN                      RROW3  ROUT3 \
                   LT1  LT2  LT3                      RT3  RT2  RT1
 #include <aekeynox/selenium.keymap>
+/ {
+    combos {
+        compatible = "zmk,combos";
+        mouseless {
+            bindings = <&kp F15>;
+            key-positions = <44 45>;
+        };
+    };
+};
